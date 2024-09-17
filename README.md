@@ -1,10 +1,9 @@
-# Présentation App Burger Quiz
+# 🕹️ Burger Quiz - Version React
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/BenjaminPoutriquet35800/app-burger-quiz/master/views/public/images/backgrounds/menus.svg?sanitize=true" height="250"> 
-</p>
+Bienvenue dans Burger Quiz - Version React ! 🎉
+Ce projet est une adaptation du célèbre jeu télévisé Burger Quiz, développé avec la bibliothèque React.
 
-:hamburger: Burger quiz est le jeu qui reprend les codes de la célèbre émission présentée par Alain Chabat. 
+Le jeu reprend les principes amusants du show : deux équipes, "Ketchup" et "Mayo", s'affrontent autour de questions absurdes, décalées, mais toujours divertissantes. Grâce à une interface moderne et réactive, vous pouvez revivre l'expérience du Burger Quiz directement depuis votre navigateur, seul ou entre amis.
 
 ## Prérequis
 Installer NodeJs : https://nodejs.org/fr/
@@ -14,12 +13,13 @@ Installer NodeJs : https://nodejs.org/fr/
 Cloner le répo :
 
 ```
-https://github.com/BenjaminPoutriquet35800/app-burger-quiz.git
+https://github.com/gabrielgonta/BurgerQuizGame.git
 ```
 
 Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande :
 
 ```
+cd BurgerQuizGame
 npm install
 ```
 
@@ -49,13 +49,13 @@ Vous arriverez sur une fenêtre permettant aux joueurs de flasher un **QR-Code**
 
 Une fois que tout le monde est prêt vous pouvez cliquer sur le bouton : **Tout le monde est prêt!**. 
 
-Vous arrivez enfin sur l'écran du jeu :blush: :
+Vous arrivez enfin sur l'écran du jeu :
 <p align="center">
 <img src="https://user-images.githubusercontent.com/25900708/52507593-461e9480-2bf2-11e9-9882-60ca26b7a568.png" height="300"> 
 </p>
 
 Cette page est l'écran principal de l'application. 
-En effet elle permet l'affichage des points de chacune des équipes, de lancer les différentes transitions (nuggets, sel & poivre, menus, addition, burger de la mort) enfin de pouvoir cheese buzzer :smiley:
+En effet elle permet l'affichage des points de chacune des équipes, de lancer les différentes transitions (nuggets, sel & poivre, menus, addition, burger de la mort) enfin de pouvoir cheese buzzer
 
 Ouvrez enfin un dernier onglet : http://localhost:3000/admin :
 
@@ -65,12 +65,11 @@ Ouvrez enfin un dernier onglet : http://localhost:3000/admin :
 
 Cette page va permettre d'administrer le jeu. Vous allez pouvoir ajouter les points des différentes équipes lancer les transitions et de bloquer / débloquer les cheeses buzzer.
 
-**NOTA**: Si vous êtes sous **Google Chrome** cliquer une première fois sur la fenêtre du jeu car vous aurez une erreur de type **'Uncaught (in promise) DOMException'** et l'animation ne se lancera pas.
+**NOTE**: Si vous êtes sous **Google Chrome** cliquer une première fois sur la fenêtre du jeu car vous aurez une erreur de type **'Uncaught (in promise) DOMException'** et l'animation ne se lancera pas.
 
 ## Auteurs
 
-* **Poutriquet Benjamin** - *Initial work* - [app-burger-quiz](https://github.com/BenjaminPoutriquet35800/app-burger-quiz)
-* Voir aussi la liste des [contributeurs](https://github.com/BenjaminPoutriquet35800/app-burger-quiz/graphs/contributors) ayant participé à ce projet.
+* **Gabriel Gonta** - *Initial work* - [BurgerQuizGame](https://github.com/gabrielgonta/BurgerQuizGame.git)
 
 
 
