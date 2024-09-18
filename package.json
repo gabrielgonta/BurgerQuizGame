@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Application pour jouer à burger-quiz",
   "main": "server-local.js",
+  "homepage": "https://gabrielgonta.github.io/BurgerQuizGame",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js"
   },
   "dependencies": {
@@ -19,8 +22,10 @@
     "passport-local": "^1.0.0",
     "qrcode": "^1.4.4",
     "serverless-http": "^2.3.2",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "gh-pages": "^3.2.3",
+    "react-scripts": "^4.0.3"
   },
-  "author": "Poutriquet Benjamin",
+  "author": "Gabriel Gonta",
   "license": "MIT"
 }
