@@ -1,75 +1,74 @@
-# 🕹️ Burger Quiz - Version React
+# 🕹️ Burger Quiz - React Version
 
 ## Description
 
-Bienvenue dans Burger Quiz - Version React ! 🎉
-Ce projet est une adaptation du célèbre jeu télévisé Burger Quiz, développé avec la bibliothèque React.
+Welcome to Burger Quiz - React Version! 🎉 This project is an adaptation of the famous TV game show Burger Quiz, developed with the React library.
 
-Le jeu reprend les principes amusants du show : deux équipes, "Ketchup" et "Mayo", s'affrontent autour de questions absurdes, décalées, mais toujours divertissantes. Grâce à une interface moderne et réactive, vous pouvez revivre l'expérience du Burger Quiz directement depuis votre navigateur, seul ou entre amis.
+The game retains the fun principles of the show: two teams, "Ketchup" and "Mayo," compete with each other in absurd, quirky, but always entertaining questions. With a modern and responsive interface, you can relive the Burger Quiz experience directly from your browser, either solo or with friends.
 
-## Prérequis
-Installer NodeJs : https://nodejs.org/fr/
+## Prerequisites
+Install NodeJs : https://nodejs.org/fr/
 
 ## Installation
 
-Cloner le répo :
+Clone the repository:
 
 ```
-https://github.com/gabrielgonta/BurgerQuizGame.git
+git clone https://github.com/gabrielgonta/BurgerQuizGame.git
 ```
 
-Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande pour installer les dépendences :
+Navigate to the root directory where the 'package.json' file is located, then run the command to install the dependencies :
 
 ```
 cd BurgerQuizGame
 npm install
 ```
 
-## Déploiement
+## Deployment
 
-Une fois que les dépendances ont été installées vous pouvez lancer l'application :
+Once the dependencies are installed, you can start the application :
 
 ```
 node server.js
 ```
 
-Par défaut le serveur écoute sur le port **3000**. 
+By default, the server listens on port **3000**. 
 
-Vous pouvez à présent accèder à l'application via cette adressse : http://localhost:3000/ qui permet de choisir une équipe (Ketchup / Mayo) :
+You can now access the application via this address : http://localhost:3000/, which allows you to select a team (Ketchup / Mayo) :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/25900708/52507764-ce9d3500-2bf2-11e9-91ba-4518018d0a5f.png" height="300"> 
 </p>
 
-Ouvrir un second onglet puis taper l'adresse suivante : http://localhost:3000/game :
+Open a second tab and type the following address : http://localhost:3000/game :
 
-Vous arriverez sur une fenêtre permettant aux joueurs de flasher un **QR-Code** pour qu'ils puissent se rendre directement au choix des équipes :
+You will arrive at a screen where players can scan a **QR-Code** to join and directly choose their teams:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/25900708/80916842-8fa95100-8d5b-11ea-8a51-c097a5bee720.PNG" height="300"> 
 </p>
 
-Une fois que tout le monde est prêt vous pouvez cliquer sur le bouton : **Tout le monde est prêt!**. 
+Once everyone is ready, you can click the button: **Everyone is ready !**.
 
-Vous arrivez enfin sur l'écran du jeu :
+You will finally arrive at the game screen :
 <p align="center">
 <img src="https://user-images.githubusercontent.com/25900708/52507593-461e9480-2bf2-11e9-9882-60ca26b7a568.png" height="300"> 
 </p>
 
-Cette page est l'écran principal de l'application. 
-En effet elle permet l'affichage des points de chacune des équipes, de lancer les différentes transitions (nuggets, sel & poivre, menus, addition, burger de la mort) enfin de pouvoir cheese buzzer
+This page is the main screen of the application. 
+It displays each team's score, triggers various transitions (nuggets, salt & pepper, menus, bill, burger of death), and allows activating the cheese buzzer.
 
-Ouvrez enfin un dernier onglet : http://localhost:3000/admin :
+Finally, open one last tab: http://localhost:3000/admin :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/25900708/52508059-977b5380-2bf3-11e9-8e7f-9c875a5a5718.png" height="300"> 
 </p>
 
-Cette page va permettre d'administrer le jeu. Vous allez pouvoir ajouter les points des différentes équipes lancer les transitions et de bloquer / débloquer les cheeses buzzer.
+This page allows you to manage the game. You can add points for the teams, trigger transitions, and lock/unlock the cheese buzzer.
 
-**NOTE**: Si vous êtes sous **Google Chrome** cliquer une première fois sur la fenêtre du jeu car vous aurez une erreur de type **'Uncaught (in promise) DOMException'** et l'animation ne se lancera pas.
+**NOTE** : If you are using **Google Chrome**, click on the game window once, as you may encounter an error like **'Uncaught (in promise) DOMException'**, preventing the animation from starting.
 
-## Auteurs
+## Authors
 
 * **Gabriel Gonta** - *Initial work* - [BurgerQuizGame](https://github.com/gabrielgonta/BurgerQuizGame.git)
 
