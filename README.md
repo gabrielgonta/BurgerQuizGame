@@ -1,5 +1,7 @@
 # 🕹️ Burger Quiz - Version React
 
+## Description
+
 Bienvenue dans Burger Quiz - Version React ! 🎉
 Ce projet est une adaptation du célèbre jeu télévisé Burger Quiz, développé avec la bibliothèque React.
 
@@ -16,7 +18,7 @@ Cloner le répo :
 https://github.com/gabrielgonta/BurgerQuizGame.git
 ```
 
-Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande :
+Se rendre à la base du répertoire où se trouve le fichier **'package.json'** puis lancer la commande pour installer les dépendences :
 
 ```
 cd BurgerQuizGame
